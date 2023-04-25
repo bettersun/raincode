@@ -1,0 +1,29 @@
+# 输出位置
+tmplPath : ./code_tmpl/
+# 输出位置
+outputPath : ./output/
+# 日期
+date : $Date$
+# 日期格式
+dateFormat : 2016/01/02
+# 文件名(目录名)
+fileName :
+  - placeHolder: xxx
+    fill: hello
+# 代码
+code:
+  - placeHolder: xxx
+    fill: hello
+  - placeHolder: Xxx
+    fill: Hello
+  - placeHolder: Yyy
+    fill: Test
+  - placeHolder: $ModuleName$
+    fill: 你好世界
+  - placeHolder: $ModuleCodeNameCamel$
+    fill: HelloWorld
+  - placeHolder: $ModuleDeveloper$
+    fill: test user
+
+
+
